@@ -1,0 +1,93 @@
+
+#our_story::before {
+    content: "";
+    width: 904px;
+    height: 876px;
+    border-radius: 100%;
+    background-image: radial-gradient(#a45dce 50%, #da3f3f 0);
+    position: absolute;
+    filter: blur(74px);
+    opacity: 0.15;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  #roadMap::before {
+    content: "";
+    width: 1000px;
+    height: 900px;
+    border-radius: 100%;
+    background-image: radial-gradient(#6e3e2f 30%, #7568ee 70%);
+    position: absolute;
+    filter: blur(84px);
+    opacity: 0.25;
+    left: -35rem;
+    top: 22rem;
+    z-index: -1;
+  }
+  #roadMap::after {
+    content: "";
+    width: 1120px;
+    height: 900px;
+    border-radius: 60%;
+    background-image: radial-gradient(#b3b3ff 30%, #0160b9 30%);
+    position: absolute;
+    filter: blur(84px);
+    opacity: 0.25;
+    right: -5rem;
+    top: 62rem;
+    z-index: -1;
+  }
+  
+  .textColor-section1 {
+    color: #f60c73;
+  }
+  .margin_section {
+    margin: 3rem 0 7rem 0;
+  }
+  .linkedin_circle {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    bottom: 12px;
+    right: 7px;
+  }
+  .animated_spin {
+    animation-name: spin;
+    animation-duration: 20000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .translate_top {
+      translate: 0 7rem;
+    }
+    .translate_btm {
+      translate: 0 -3rem;
+    }
+    .margin_section {
+      margin-bottom: 15rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .position_xl_relative {
+      position: relative;
+    }
+    .position_xl_absolute {
+      position: absolute;
+      top: 1rem;
+      right: 0;
+    }
+  }
+  

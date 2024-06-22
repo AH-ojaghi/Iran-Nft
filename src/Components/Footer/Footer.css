@@ -1,0 +1,31 @@
+footer {
+  background-color: #091028;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.icon_footer_link {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 52px;
+  height: 52px;
+}
+.icon_footer_instagram {
+  background: linear-gradient(
+    90deg,
+    #9a5bff 0%,
+    #ff1212 53.12%,
+    #ff7f56 100%
+  ) !important;
+}
+.Ellipse_4 {
+  filter: blur(50px);
+  top: -11%;
+  right: -12%;
+  width: 615px;
+  height: 584px;
+  background: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(8, 52, 164, 0.2) 21.7%,
+    rgba(7, 15, 28, 0) 100%
+  );
+  -webkit-filter: blur(50px);
+}
+

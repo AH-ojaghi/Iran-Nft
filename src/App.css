@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
+}
+
+:root {
+  --color_07101D: #07101d;
+  --color_FF3C00: #ff3c00;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body{
+  overflow-x:  hidden;
+}
+
+body {
+  font-family: kalameh;
+  background-color: var(--color_07101D);
+}
+
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Black.woff") format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/WebFonts/_Woff/KalamehWeb-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff")
+    format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff")
+    format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff")
+    format("woff");
+}
+@font-face {
+  font-family: Gilroy_Bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/WebFonts/_Woff/Gilroy-Bold.woff") format("woff");
+}
+
+@media screen and (max-width: 991.98px) {
+  .bg_dark_md {
+    background-color: var(--bs-secondary-color);
+  }
+}
+@media screen and (max-width: 600.98px) {
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .fs-3 {
+    font-size: calc(1rem + 0.6vw) !important;
+  }
+  .fs-4 {
+    font-size: calc(1rem + 0.3vw) !important;
+  }
+  .arrowleft {
+    width: 22px;
+  }
+}

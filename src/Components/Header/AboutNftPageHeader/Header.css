@@ -1,0 +1,6 @@
+.header {
+  height: 23rem;
+  background-image: url(/public/img/banner_about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

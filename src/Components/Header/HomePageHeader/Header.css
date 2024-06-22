@@ -1,0 +1,126 @@
+header::before {
+  content: "";
+  width: 904px;
+  height: 876px;
+  background-image: radial-gradient(#3d0d58 38%, #070f1c 0);
+  position: absolute;
+  filter: blur(74px);
+  opacity: 0.4;
+  right: -274px;
+  top: -273px;
+  z-index: -1;
+}
+header::after {
+  content: "";
+  background-image: url("../img/Group\ 1.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.bg_07101D {
+  background-color: var(--color_07101D) !important;
+}
+.text_FF3C00 {
+  color: var(--color_FF3C00);
+}
+.border_FF3C00 {
+  border-color: var(--color_FF3C00) !important;
+}
+.bg_FF3C00 {
+  background-color: var(--color_FF3C00);
+}
+.title_main_header {
+  font-size: 4rem;
+}
+
+.w_70 {
+  width: 70%;
+}
+.search_form_header {
+  height: 68px;
+}
+.search_form_header button {
+  right: 8px;
+  top: 25%;
+}
+.bg_gradient_main_site {
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
+}
+.main_img_header::before,
+.main_img_header::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.main_img_header::before {
+  background-image: url("../img/Path\ \(1\).png");
+  width: 45px;
+  height: 81px;
+  top: 4rem;
+  right: 5rem;
+}
+.main_img_header::after {
+  background-image: url("../img/scribble\ final\ version-02\ \(2\).png");
+  width: 72px;
+  height: 57px;
+  bottom: 3rem;
+  left: 2rem;
+}
+.count_user_site {
+  width: 298px;
+  height: 79px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+  bottom: 4rem;
+  right: 3rem;
+}
+
+.icon_header_container {
+  width: 81px;
+  height: 81px;
+}
+
+@media screen and (max-width: 991.98px) {
+  header::before {
+    width: 30%;
+    height: 46%;
+    right: 70%;
+    top: 0;
+  }
+  header::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 600.98px) {
+  .title_main_header {
+    font-size: 2.5rem;
+  }
+  .main_img_header::before,
+  .main_img_header::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+  .icon_header_container {
+    width: 40px;
+    height: 40px;
+  }
+  .icon_header_container img,
+  .icon_header_container svg {
+    width: 24px;
+  }
+  .count_user_site {
+    height: 56px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .count_user_site {
+    width: 240px;
+  }
+}
